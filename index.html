@@ -1,15 +1,54 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Comparateur de prix</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comparateur Pro</title>
+<link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <h1>Comparateur de prix</h1>
-  <p>Bienvenue sur mon application.</p>
 
-  <script src="script.js"></script>
+<body>
+
+<header>
+<h1>🛒 Comparateur Pro</h1>
+
+<div class="search">
+<input type="text" id="search" placeholder="Rechercher un produit...">
+<button onclick="rechercher()">Rechercher</button>
+</div>
+
+</header>
+
+<main id="resultats">
+
+<div class="card">
+<img src="https://via.placeholder.com/200" alt="">
+<h2>iPhone 15</h2>
+<p class="prix">999 €</p>
+<p>Amazon</p>
+<a href="#">Voir l'offre</a>
+</div>
+
+<div class="card meilleur">
+<span class="badge">Meilleur prix</span>
+<img src="https://via.placeholder.com/200" alt="">
+<h2>iPhone 15</h2>
+<p class="prix">949 €</p>
+<p>AliExpress</p>
+<a href="#">Voir l'offre</a>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/200" alt="">
+<h2>iPhone 15</h2>
+<p class="prix">980 €</p>
+<p>Temu</p>
+<a href="#">Voir l'offre</a>
+</div>
+
+</main>
+
+<script src="script.js"></script>
+
 </body>
 </html>
